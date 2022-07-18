@@ -22,6 +22,7 @@
    justify-content: space-between;
 }
 .navigation__links__content-logo{
+   padding: 16px;
 }
 .navigation__links__content-choice{
    display: flex;
@@ -357,10 +358,9 @@
    content: "";
    display: block;
    width: 170px;
-   left: 43%;
    top: 100%;
-   position: absolute;
-   border-bottom: 2px solid #EC7979;
+   margin: 75px auto 0;
+   border-bottom: 2px solid #EC7979;  
 }
 .h5{
    margin-top: 40px ;
@@ -1149,5 +1149,248 @@
    .axure__links__text {
       font-size: 14px;
       line-height: 16px;
+   }
+}
+@media (max-width: 420px ){
+   *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style-type: none;
+      scroll-behavior: smooth;
+   }
+   .navigation__links {
+   }
+   .navigation__links__content {
+   }
+   .navigation__links__content-logo {
+   }
+   .navigation__links__content-choice {
+      display: none;
+   }
+   .navigation__links__content-choice_tabs {
+   }
+   .main__list {
+   }
+   .main__list__information {
+      flex-wrap: wrap;
+   }
+   .main__list__information__article {
+      margin: 0 auto;
+   }
+   .main__list__information__article__logo {
+      display: none;
+   }
+   .main__list__information__article__mean {
+      width: 100%;
+      padding: 0 ;
+      text-align: center;
+      margin-top: 80px;
+   }
+   .main__list__information__article__mean::after{
+      margin: 43px auto 0;
+   }
+   .main__list__information__article__text {
+      margin: 42px auto;
+      text-align: center;
+   }
+   .main__list__information__article__btn {
+      width: 100%;
+   }
+   .main__list__information__registration {
+      margin: 0 auto 50px;
+   }
+   .main__list__information_regitration__article {
+   }
+   .main__list__information_regitration__article-free {
+   }
+   .main__list__information__registration__data {
+   }
+   .main__list__information__registration__btn {
+   }
+   .social {
+   }
+   .social__media {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .social__media__information {
+      width: 100%;
+   }
+   .social__media__information__article {
+      text-align: center;
+   }
+   .social__media__information__about {
+      text-align: center;
+   }
+   .social__media__img {
+      width: 100%;
+      margin: 0 auto 24px;
+   }
+   .social__media__imgs {
+      width: 26px;
+      height: 26px;
+   }
+   .mainInformation {
+   }
+   .tab {
+   }
+   .cont {
+   }
+   .activeBlock {
+   }
+   .navigationBlock {
+      width: 95px;
+      font-size: 14px;
+      line-height: 19px;
+   }
+   .passiveBlock {
+   }
+   .Information {
+   }
+   .leftSide {
+   }
+   .article {
+      margin: 0 auto;
+      text-align: center;
+      padding: 50px 25px 40px;
+   }
+   .text {
+      text-align: center;
+      margin: 0 auto;
+      padding: 0 20px;
+   }
+   .downloadButton {
+      display: block;
+      width: 80%;
+      margin: 29px auto;
+      align-self: center;
+   }
+   .img {
+      display: none;
+   }
+   .otherInformation {
+   }
+   .otherInformation__about {
+   }
+   .about {
+      margin: 0 auto;
+   }
+   .h5 {
+   }
+   .about1 {
+   }
+   .about2 {
+      width: 100%;
+   }
+   .row {
+   }
+   .design {
+   }
+   .textAbout {
+   }
+   .pricing {
+   }
+   .pricing__article {
+   }
+   .pricing__article__main {
+   }
+   .pricing__article__text {
+   }
+   .pricing__choice {
+      justify-content: center;
+      margin: 0 auto;
+      width: 80%;
+   }
+   .pricing__choice__tabs {
+      width: 90%;
+      justify-content: center;
+      display: block;
+      margin: 15px auto;
+   }
+   .pricing__choice__tabs__headline {
+   }
+   .pricing__choice__tabs__price {
+   }
+   .pricing__choice__tabs__benefits {
+   }
+   .pricing__choice__tabs__line {
+   }
+   .feedback {
+   }
+   .feedback__article {
+   }
+   .feedback__article__main {
+      text-align: center;
+   }
+   .feedback__article__text {
+      text-align: center;
+   }
+   .feedback__customers {
+   }
+   .feedback__customers__comment {
+   }
+   .feedback__customers__comment__text {
+   }
+   .feedback__customers__comment__who {
+   }
+   .feedback__customers__comment__who__img {
+   }
+   .feedback__customers__comment__who__about {
+   }
+   .feedback__customers__comment__who__about__name {
+   }
+   .feedback__customers__comment__who__about__job {
+   }
+   .stylish {
+   }
+   .stylish__article {
+   }
+   .stylish__text {
+      width: 80%;
+      display: block;
+      margin: 20px auto;
+   }
+   .stylish__btn {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+   }
+   .contactUs {
+   }
+   .contactUs__article {
+   }
+   .contactUS__article__headline {
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+   }
+   .contactUs__article__text {
+   }
+   .contactUs__form {
+      width: 80%;
+      margin: 64px auto 0;
+      display: block;
+   }
+   .contactUs__form__information {
+      width: 100%;
+      margin: 0 0 50px;
+   }
+   .contactUs__information__value {
+      margin: 50px 0 0;
+   }
+   .contacUs__form__message {
+      width: 100%;
+   }
+   .ContactUs__btn {
+      margin: 50px auto 40px;
+   }
+   .axure__links {
+   }
+   .axure__links__imgs {
+      width: 80%;
+   }
+   .axure__links__text {
    }
 }

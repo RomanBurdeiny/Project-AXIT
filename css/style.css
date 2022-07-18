@@ -193,12 +193,12 @@
 }
 .social{
    margin: 0 auto;
-   padding: 0 15px;
    background-color: #F8EFEF;
 }
 .social__media{
    max-width: 1200px;
    margin: 0 auto;
+   padding: 0 15px;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -237,11 +237,11 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding: 15px;
    position: relative;
 }
 .tab{
    display: block;
+   padding: 15px;
    max-width: 1200px;
    position: relative;
 }
@@ -334,6 +334,7 @@
 }
 .otherInformation{
    max-width: 1200px;
+   padding: 0 15px;
    margin: 0 auto;
    align-content: center;
    text-align: center;
@@ -416,7 +417,7 @@
 }
 .pricing{
    position: relative;
-   margin: 200px auto 0;
+   margin: 58px auto 0;
    display: flex;
    flex-direction: column;
    background: #F5F5F5;
@@ -532,8 +533,7 @@
    padding: 15px 0;
 }
 .feedback{
-   margin: 0 auto;
-   padding-top: 130px;
+   margin: 50px auto 0;
 }
 .feedback__article{
    margin: 0 auto;
@@ -549,6 +549,8 @@
    line-height: 28px;
    position: relative;
    text-transform: uppercase;
+   padding: 60px 0 ;
+   
 }
 .feedback__article__main::after{
    content: "";
@@ -566,14 +568,12 @@
    display: flex;
    align-items: center;
    text-align: center;
-   margin-top: 40px;
    font-family: 'Raleway';
    color: #86878B;
-   margin-bottom: 60px;
 }
 .feedback__customers{
    max-width: 1200px;
-   margin: 0 auto 60px;
+   margin: 83px auto 60px;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -678,7 +678,7 @@
    display: block;
    width: 170px;
    top: 100%;
-   margin: 75px auto 0;
+   margin: 75px auto 40px;
    border-bottom: 2px solid #fff;  
    
 }
@@ -689,7 +689,6 @@
    line-height: 21px;
    color: #FFFFFF;
    text-align: center;
-   margin-top: 40px;
    position: relative;
    z-index: 3;
 }
@@ -840,7 +839,7 @@
 
 }
 .axure__links__text{
-   margin: 0 0 50px;
+   margin: 27px auto;
    font-family: 'Raleway';
    font-weight: 400;
    font-size: 18px;
@@ -858,25 +857,8 @@
       list-style-type: none;
       scroll-behavior: smooth;
    }
-   .navigation__links {
-   }
-   .navigation__links__content {
-   }
-   .navigation__links__content-logo {
-   }
-   .navigation__links__content-choice {
-   }
-   .navigation__links__content-choice_tabs {
-   }
-   .main__list {
-   }
-   .main__list__information {
-    
-   }
    .main__list__information__article {
-      margin: 137px 0 106px;
-   }
-   .main__list__information__article__logo {
+      margin: 137px 0 106px 100px;
    }
    .main__list__information__article__mean {
       color: white;
@@ -884,7 +866,7 @@
       font-weight: 500;
       font-size: 36px;
       line-height: 42px;
-      max-width: 450px;
+      max-width: 480px;
       padding-top: 37px;
    }
    .main__list__information__article__mean::after{
@@ -892,7 +874,7 @@
       display: block;
       width: 115px;
       top: 100%;
-      margin: 41xZpx 0 0;
+      margin: 41px 0 0;
       border-bottom: 1px solid #fff;  
    }
    .main__list__information__article__text {
@@ -907,7 +889,7 @@
    }
    .main__list__information__registration {
       width: 400px;
-      margin: 136px 10px 106px;
+      margin: 136px 0 106px;
    }
    .main__list__information_regitration__article {
       font-family: 'Open Sans';
@@ -918,18 +900,6 @@
       align-items: center;
       text-align: center;
       margin: 30px;
-   }
-   .main__list__information_regitration__article-free {
-   }
-   .main__list__information__registration__data {
-   }
-   .main__list__information__registration__btn {
-   }
-   .social {
-   }
-   .social__media {
-   }
-   .social__media__information {
    }
    .social__media__information__article {
       font-family: 'Open Sans';
@@ -945,20 +915,10 @@
       line-height: 16px;
       color: #86878B;
    }
-   .social__media_img {
-   }
    .social__media__imgs {
       width: 52px;
       height: 52px;
       margin: 30px 0;
-   }
-   .mainInformation {
-   }
-   .tab {
-   }
-   .cont {
-   }
-   .activeBlock {
    }
    .navigationBlock {
       height: 40px;
@@ -971,17 +931,10 @@
       font-size: 14px;
       line-height: 19px;
    }
-   .passiveBlock {
-   }
-   .Information {
-   }
-   .leftSide {
-   }
    .article {
       font-weight: 700;
       font-size: 24px;
       line-height: 33px;
-
    }
    .text {
       font-size: 14px;
@@ -993,10 +946,6 @@
    .img {
       width: 100%;
       height: 100%;
-   }
-   .otherInformation {
-   }
-   .otherInformation__about {
    }
    .about {
       font-size: 24px;
@@ -1010,14 +959,9 @@
       font-size: 14px;
       line-height: 16px;
    }
-   .about1 {
-  
-   }
    .about2 {
       width: 318px;
       margin-top: 65px;
-   }
-   .row {
    }
    .design {
       font-size: 18px;
@@ -1027,30 +971,8 @@
       font-size: 14px;
       line-height: 16px;
    }
-   .pricing {
-   }
-   .pricing__article {
-   }
-   .pricing__article__main {
-   }
-   .pricing__article__text {
-   }
-   .pricing__choice {
-   }
    .pricing__choice__tabs {
       width: 318px;
-   }
-   .pricing__choice__tabs__headline {
-   }
-   .pricing__choice__tabs__price {
-   }
-   .pricing__choice__tabs__benefits {
-   }
-   .pricing__choice__tabs__line {
-   }
-   .feedback {
-   }
-   .feedback__article {
    }
    .feedback__article__main {
       font-size: 24px;
@@ -1059,8 +981,6 @@
    .feedback__article__text {
       font-size: 14px;
       line-height: 16px;
-   }
-   .feedback__customers {
    }
    .feedback__customers__comment {
       width: 317px;
@@ -1088,8 +1008,6 @@
       width: 63px;
       height: 63px;
    }
-   .feedback__customers__comment__who__about {
-   }
    .feedback__customers__comment__who__about__name {
       font-size: 18px;
       line-height: 25px;
@@ -1099,8 +1017,6 @@
       font-size: 14px;
       line-height: 16px;
       padding: 10px;
-   }
-   .stylish {
    }
    .stylish__article {
       font-size: 24px;
@@ -1117,10 +1033,6 @@
    .stylish__btn {
       width: 317px;
    }
-   .contactUs {
-   }
-   .contactUs__article {
-   }
    .contactUS__article__headline {
       font-size: 24px;
       line-height: 28px;
@@ -1129,22 +1041,14 @@
       font-size: 14px;
       line-height: 16px;
    }
-   .contactUs__form {
-   }
    .contactUs__form__information {
       width: 480px;
-   }
-   .contactUs__information__value {
    }
    .contacUs__form__message {
       width: 480px;
    }
    .ContactUs__btn {
       width: 318px;
-   }
-   .axure__links {
-   }
-   .axure__links__imgs {
    }
    .axure__links__text {
       font-size: 14px;
@@ -1226,18 +1130,8 @@
       list-style-type: none;
       scroll-behavior: smooth;
    }
-   .navigation__links {
-   }
-   .navigation__links__content {
-   }
-   .navigation__links__content-logo {
-   }
    .navigation__links__content-choice {
       display: none;
-   }
-   .navigation__links__content-choice_tabs {
-   }
-   .main__list {
    }
    .main__list__information {
       flex-wrap: wrap;
@@ -1267,16 +1161,6 @@
    .main__list__information__registration {
       margin: 0 auto 50px;
    }
-   .main__list__information_regitration__article {
-   }
-   .main__list__information_regitration__article-free {
-   }
-   .main__list__information__registration__data {
-   }
-   .main__list__information__registration__btn {
-   }
-   .social {
-   }
    .social__media {
       display: flex;
       flex-wrap: wrap;
@@ -1298,24 +1182,10 @@
       width: 26px;
       height: 26px;
    }
-   .mainInformation {
-   }
-   .tab {
-   }
-   .cont {
-   }
-   .activeBlock {
-   }
    .navigationBlock {
       width: 95px;
       font-size: 14px;
       line-height: 19px;
-   }
-   .passiveBlock {
-   }
-   .Information {
-   }
-   .leftSide {
    }
    .article {
       margin: 0 auto;
@@ -1336,56 +1206,37 @@
    .img {
       display: none;
    }
-   .otherInformation {
-   }
-   .otherInformation__about {
-   }
    .about {
       margin: 0 auto;
-   }
-   .h5 {
-   }
-   .about1 {
    }
    .about2 {
       width: 100%;
    }
-   .row {
-   }
-   .design {
-   }
-   .textAbout {
-   }
    .pricing {
-   }
-   .pricing__article {
-   }
-   .pricing__article__main {
-   }
-   .pricing__article__text {
+      width: 100%;
    }
    .pricing__choice {
       justify-content: center;
       margin: 0 auto;
-      width: 80%;
    }
    .pricing__choice__tabs {
-      width: 90%;
+      width: 80%;
       justify-content: center;
       display: block;
       margin: 15px auto;
+      min-width: 0 ;
    }
    .pricing__choice__tabs__headline {
+      width: 100%;
    }
    .pricing__choice__tabs__price {
+      width: 100%;
    }
    .pricing__choice__tabs__benefits {
+      width: 100%;
    }
    .pricing__choice__tabs__line {
-   }
-   .feedback {
-   }
-   .feedback__article {
+      width: 100%;
    }
    .feedback__article__main {
       text-align: center;
@@ -1393,25 +1244,19 @@
    .feedback__article__text {
       text-align: center;
    }
-   .feedback__customers {
-   }
    .feedback__customers__comment {
+      width: 85%;
    }
-   .feedback__customers__comment__text {
-   }
-   .feedback__customers__comment__who {
-   }
-   .feedback__customers__comment__who__img {
-   }
-   .feedback__customers__comment__who__about {
-   }
-   .feedback__customers__comment__who__about__name {
-   }
-   .feedback__customers__comment__who__about__job {
-   }
-   .stylish {
-   }
-   .stylish__article {
+   .feedback__customers__comment__text::after {
+      content: "";
+      position: relative;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid #E2E2E2;
+      top: 70px;
+      left: -44%
    }
    .stylish__text {
       width: 80%;
@@ -1423,16 +1268,10 @@
       margin: 0 auto;
       width: 80%;
    }
-   .contactUs {
-   }
-   .contactUs__article {
-   }
    .contactUS__article__headline {
       width: 80%;
       margin: 0 auto;
       display: block;
-   }
-   .contactUs__article__text {
    }
    .contactUs__form {
       width: 80%;
@@ -1450,13 +1289,10 @@
       width: 100%;
    }
    .ContactUs__btn {
+      width: 70%;
       margin: 50px auto 40px;
-   }
-   .axure__links {
    }
    .axure__links__imgs {
       width: 80%;
-   }
-   .axure__links__text {
    }
 }

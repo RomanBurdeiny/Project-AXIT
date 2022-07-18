@@ -463,7 +463,8 @@
 }
 .pricing__choice{
    max-width: 1200px;
-   width: calc(100% - 5%);
+   width: 100%;
+   padding: 0 15px;
    margin: 0 auto;
    display: flex;
    flex-direction: row;

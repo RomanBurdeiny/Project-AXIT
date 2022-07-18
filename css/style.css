@@ -1219,9 +1219,10 @@
    .pricing__choice {
       justify-content: center;
       margin: 0 auto;
+      padding: 0 15px;
    }
    .pricing__choice__tabs {
-      width: 80%;
+      width: 100%;
       justify-content: center;
       display: block;
       margin: 15px auto;
@@ -1245,8 +1246,12 @@
    .feedback__article__text {
       text-align: center;
    }
+   .feedback__customers{
+      margin: 0 auto;
+      padding: 15px;
+   }
    .feedback__customers__comment {
-      width: 85%;
+      width: 100%;
    }
    .feedback__customers__comment__text::after {
       content: "";
